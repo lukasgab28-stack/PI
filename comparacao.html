@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | Comparação</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Compare até três carros e escolha o melhor equilíbrio.</p>
+      <h1>Comparação de carros</h1>
+      <p>Selecione os modelos e veja preços, potência, consumo, conforto e tecnologia lado a lado, com um gráfico dinâmico.</p>
+    </div>
+
+    <div class="section">
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); align-items: end;">
+        <div>
+          <label for="carOne">Carro 1</label>
+          <select id="carOne" aria-label="Selecionar carro 1"></select>
+        </div>
+        <div>
+          <label for="carTwo">Carro 2</label>
+          <select id="carTwo" aria-label="Selecionar carro 2"></select>
+        </div>
+        <div>
+          <label for="carThree">Carro 3 (opcional)</label>
+          <select id="carThree" aria-label="Selecionar carro 3 (opcional)">
+            <option value="">Nenhum</option>
+          </select>
+        </div>
+        <div>
+          <button id="compareBtn" class="btn" aria-label="Comparar carros">Comparar</button>
+        </div>
+      </div>
+
+      <div id="compareCards" class="compare-grid" aria-live="polite"></div>
+
+      <div class="canvas-wrap" aria-label="Gráfico de radar">
+        <canvas id="radarChart" width="600" height="420" role="img" aria-label="Gráfico comparativo de atributos"></canvas>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/comparacao.js"></script>
+</body>
+</html>
+
+
+
+

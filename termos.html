@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | Termos de Uso</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Transparência para cada locação</p>
+      <h1>Termos de uso</h1>
+      <p>Principais regras, responsabilidades e proteção de dados na AutoMotors.</p>
+    </div>
+
+    <section class="section" aria-labelledby="contrato">
+      <h2 id="contrato">Contrato de locação</h2>
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
+        <article class="metric-card">
+          <strong>Elegibilidade</strong>
+          <span class="tagline">CNH válida, maior de 21 anos e cartão de crédito ativo.</span>
+        </article>
+        <article class="metric-card">
+          <strong>Depósito</strong>
+          <span class="tagline">Pré-autorização reembolsável para coberturas e franquias.</span>
+        </article>
+        <article class="metric-card">
+          <strong>KM e combustível</strong>
+          <span class="tagline">Planos com KM livre ou franquia; devolução com nível igual.</span>
+        </article>
+      </div>
+      <ul>
+        <li>O uso do veículo deve seguir as leis de trânsito locais.</li>
+        <li>Multas durante o período são de responsabilidade do locatário.</li>
+        <li>É vedado sublocar, participar de corridas ou uso off-road não autorizado.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="cobertura">
+      <h2 id="cobertura">Coberturas e danos</h2>
+      <p class="intro">Oferecemos proteção básica inclusa e opcionais para reduzir franquias.</p>
+      <ul>
+        <li>Seguro contra terceiros com limites descritos no ato da reserva.</li>
+        <li>Cobertura para vidros, pneus e faróis pode ser adicionada.</li>
+        <li>Em caso de incidente, comunique imediatamente nosso suporte 24/7.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="dados">
+      <h2 id="dados">Privacidade e dados</h2>
+      <p class="intro">Cumprimos LGPD e armazenamos apenas o necessário para a operação.</p>
+      <ul>
+        <li>Dados de pagamento são processados em ambiente seguro e tokenizado.</li>
+        <li>Telemetria é usada para segurança, manutenção e prevenção de fraudes.</li>
+        <li>Você pode solicitar a exclusão ou correção de dados pelo e-mail privacidade@automotors.com.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="cancelamento">
+      <h2 id="cancelamento">Cancelamento e reembolso</h2>
+      <ul>
+        <li>Cancelamento gratuito até 24h antes da retirada.</li>
+        <li>Após a retirada, cobramos apenas o período utilizado e taxa de devolução antecipada, quando aplicável.</li>
+        <li>Reembolsos são processados no mesmo método de pagamento.</li>
+      </ul>
+    </section>
+
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

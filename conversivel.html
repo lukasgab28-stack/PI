@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | Conversíveis</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Céu aberto, vento no rosto e muito estilo.</p>
+      <h1>Conversíveis</h1>
+      <p>Dirija com liberdade total e aproveite a estrada com design marcante e motores vibrantes.</p>
+    </div>
+
+    <p class="intro">Conversíveis entregam sensação de pista com teto retrátil, isolamento acústico e reforços estruturais para estabilidade.</p>
+
+    <div class="grid">
+      <article class="card" tabindex="0">
+        <img src="img/mazda-mx5-rf.jpg" alt="Mazda MX-5 RF vermelho">
+        <div class="card-meta">
+          <span class="badge">Conversível</span>
+          <span class="price">R$ 520/dia</span>
+        </div>
+        <h3>Mazda MX-5 RF</h3>
+        <p>Leve e preciso, teto rígido retrátil em segundos e diversão pura nas curvas.</p>
+        <div class="card-actions">
+          <a class="btn" href="conversivel/mazda-mx5-rf.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/bmw-z4.jpg" alt="BMW Z4 Roadster branco">
+        <div class="card-meta">
+          <span class="badge">Conversível</span>
+          <span class="price">R$ 750/dia</span>
+        </div>
+        <h3>BMW Z4 Roadster</h3>
+        <p>Roadster com seis cilindros, tração traseira e acabamento premium esportivo.</p>
+        <div class="card-actions">
+          <a class="btn" href="conversivel/bmw-z4.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/audi-a5-cabriolet.jpg" alt="Audi A5 Cabriolet branco">
+        <div class="card-meta">
+          <span class="badge">Conversível</span>
+          <span class="price">R$ 680/dia</span>
+        </div>
+        <h3>Audi A5 Cabriolet</h3>
+        <p>Capota acústica, cabine refinada e tração quattro para estabilidade total.</p>
+        <div class="card-actions">
+          <a class="btn" href="conversivel/audi-a5-cabriolet.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/ford-mustang-convertible.jpg" alt="Ford Mustang conversível preto">
+        <div class="card-meta">
+          <span class="badge">Conversível</span>
+          <span class="price">R$ 720/dia</span>
+        </div>
+        <h3>Ford Mustang Convertible</h3>
+        <p>V8 clássico, ronco inconfundível e visual icônico sob o céu aberto.</p>
+        <div class="card-actions">
+          <a class="btn" href="conversivel/ford-mustang-convertible.html">Alugar</a>        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | Carros Elétricos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Zero emissões, silêncio absoluto e torque imediato.</p>
+      <h1>Carros elétricos</h1>
+      <p>Dirija o futuro com autonomia real e recarga rápida em uma rede crescente de estações.</p>
+    </div>
+
+    <p class="intro">Elétricos trazem custos menores por km, isenção de restrições em várias cidades e a melhor experiência tecnológica. Escolha o modelo e siga viagem.</p>
+
+    <div class="grid">
+      <article class="card" tabindex="0">
+        <img src="img/tesla-model-3.jpg" alt="Tesla Model 3 branco">
+        <div class="card-meta">
+          <span class="badge">Elétrico</span>
+          <span class="price">R$ 420/dia</span>
+        </div>
+        <h3>Tesla Model 3</h3>
+        <p>Autonomia real de 480 km, piloto automático e atualizações over-the-air constantes.</p>
+        <div class="card-actions">
+          <a class="btn" href="eletrico/tesla-model-3.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/nissan-leaf-eplus.jpg" alt="Nissan Leaf e+ azul">
+        <div class="card-meta">
+          <span class="badge">Elétrico</span>
+          <span class="price">R$ 320/dia</span>
+        </div>
+        <h3>Nissan Leaf e+</h3>
+        <p>Hatch elétrico urbano com regeneração forte e 385 km de autonomia combinada.</p>
+        <div class="card-actions">
+          <a class="btn" href="eletrico/nissan-leaf-eplus.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/bmw-i4-edrive40.jpg" alt="BMW i4 branco">
+        <div class="card-meta">
+          <span class="badge">Elétrico</span>
+          <span class="price">R$ 520/dia</span>
+        </div>
+        <h3>BMW i4 eDrive40</h3>
+        <p>Gran coupé elétrico com 590 km WLTP, tela curva e condução sem ruídos.</p>
+        <div class="card-actions">
+          <a class="btn" href="eletrico/bmw-i4-edrive40.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/kia-ev6-gtline.jpg" alt="Kia EV6 cinza">
+        <div class="card-meta">
+          <span class="badge">Elétrico</span>
+          <span class="price">R$ 480/dia</span>
+        </div>
+        <h3>Kia EV6 GT-Line</h3>
+        <p>Plataforma E-GMP com carga ultrarrápida, interior futurista e modo drift.</p>
+        <div class="card-actions">
+          <a class="btn" href="eletrico/kia-ev6-gtline.html">Alugar</a>        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

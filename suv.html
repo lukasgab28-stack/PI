@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | SUVs</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Espaço, segurança e versatilidade para qualquer roteiro.</p>
+      <h1>SUVs</h1>
+      <p>Modelos com altura, posição de dirigir elevada e tecnologia para encarar estrada ou cidade com conforto.</p>
+    </div>
+
+    <p class="intro">SUVs são perfeitos para família, viagens longas e quem quer segurança extra com tração inteligente e porta-malas generoso.</p>
+
+    <div class="grid">
+      <article class="card" tabindex="0">
+        <img src="img/range-rover-sport.jpg" alt="Range Rover Sport preto">
+        <div class="card-meta">
+          <span class="badge">SUV</span>
+          <span class="price">R$ 950/dia</span>
+        </div>
+        <h3>Range Rover Sport</h3>
+        <p>Luxo e robustez com suspensão a ar, direção nas quatro rodas e off-road real.</p>
+        <div class="card-actions">
+          <a class="btn" href="suv/range-rover-sport.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/volvo-xc90-recharge.jpg" alt="Volvo XC90 Recharge branco">
+        <div class="card-meta">
+          <span class="badge">SUV</span>
+          <span class="price">R$ 820/dia</span>
+        </div>
+        <h3>Volvo XC90 Recharge</h3>
+        <p>Híbrido plug-in de 455 cv, sete lugares e a segurança sueca de referência.</p>
+        <div class="card-actions">
+          <a class="btn" href="suv/volvo-xc90-recharge.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/bmw-x5-xdrive45e.jpg" alt="BMW X5 xDrive45e prata">
+        <div class="card-meta">
+          <span class="badge">SUV</span>
+          <span class="price">R$ 870/dia</span>
+        </div>
+        <h3>BMW X5 xDrive45e</h3>
+        <p>Híbrido plug-in com até 77 km elétricos, tração xDrive e cabine espaçosa.</p>
+        <div class="card-actions">
+          <a class="btn" href="suv/bmw-x5-xdrive45e.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/toyota-rav4-hybrid.jpg" alt="Toyota RAV4 Hybrid azul">
+        <div class="card-meta">
+          <span class="badge">SUV</span>
+          <span class="price">R$ 520/dia</span>
+        </div>
+        <h3>Toyota RAV4 Hybrid</h3>
+        <p>Híbrido confiável, 4x4 inteligente e consumo baixo para viagens longas.</p>
+        <div class="card-actions">
+          <a class="btn" href="suv/toyota-rav4-hybrid.html">Alugar</a>        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

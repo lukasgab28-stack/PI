@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | Carros de Luxo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Materiais nobres, silêncio absoluto e performance suave.</p>
+      <h1>Carros de luxo</h1>
+      <p>Sedãs e SUVs com o máximo de conforto, tecnologia embarcada e acabamentos artesanais.</p>
+    </div>
+
+    <p class="intro">Luxo é conforto contínuo: bancos com massagem, som premium, cabine acústica e serviços personalizados durante sua locação.</p>
+
+    <div class="grid">
+      <article class="card" tabindex="0">
+        <img src="img/mercedes-s580.jpg" alt="Mercedes-Benz S 580 preto">
+        <div class="card-meta">
+          <span class="badge">Luxo</span>
+          <span class="price">R$ 1.250/dia</span>
+        </div>
+        <h3>Mercedes-Benz S 580</h3>
+        <p>Bancos com massagem, iluminação ativa e o ápice de silêncio e conforto.</p>
+        <div class="card-actions">
+          <a class="btn" href="luxo/mercedes-s580.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/bmw-740i.jpg" alt="BMW 740i branco">
+        <div class="card-meta">
+          <span class="badge">Luxo</span>
+          <span class="price">R$ 1.050/dia</span>
+        </div>
+        <h3>BMW 740i</h3>
+        <p>Sedã executivo com suspensão a ar, multimídia curva e direção traseira.</p>
+        <div class="card-actions">
+          <a class="btn" href="luxo/bmw-740i.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/audi-a8l.jpg" alt="Audi A8L prata">
+        <div class="card-meta">
+          <span class="badge">Luxo</span>
+          <span class="price">R$ 1.100/dia</span>
+        </div>
+        <h3>Audi A8 L</h3>
+        <p>Interior em couro fino, iluminação sofisticada e condução sem ruídos.</p>
+        <div class="card-actions">
+          <a class="btn" href="luxo/audi-a8l.html">Alugar</a>        </div>
+      </article>
+      <article class="card" tabindex="0">
+        <img src="img/lexus-ls500.jpg" alt="Lexus LS 500 azul">
+        <div class="card-meta">
+          <span class="badge">Luxo</span>
+          <span class="price">R$ 980/dia</span>
+        </div>
+        <h3>Lexus LS 500</h3>
+        <p>Suavidade híbrida, acabamento artesanal Takumi e assistência completa ao motorista.</p>
+        <div class="card-actions">
+          <a class="btn" href="luxo/lexus-ls500.html">Alugar</a>        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | Início</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <div class="splash" aria-label="Tela de abertura">
+    <div class="solar-system" aria-hidden="true">
+      <div class="sun"></div>
+      <div class="orbit o1"><div class="planet"></div></div>
+      <div class="orbit o2"><div class="planet"></div></div>
+      <div class="orbit o3"><div class="planet"><div class="moon"></div></div></div>
+      <div class="orbit o4"><div class="planet"></div></div>
+      <div class="orbit o5"><div class="planet"><div class="moon"></div></div></div>
+    </div>
+    <div class="splash-blob" aria-hidden="true"></div>
+    <div class="splash-blob blob-2" aria-hidden="true"></div>
+    <div class="splash-ring ring-1" aria-hidden="true"></div>
+    <div class="splash-ring ring-2" aria-hidden="true"></div>
+    <div class="splash-veil" aria-hidden="true"></div>
+    <div class="splash-mist" aria-hidden="true"></div>
+    <div class="splash-ripples" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="splash-trails" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="splash-particles" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="splash-logo">AutoMotors <span class="splash-sub">Performance + Tecnologia</span></div>
+  </div>
+
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="index.html">Início</a>
+        <a href="comparacao.html">Comparação</a>
+        <a href="eletrico.html">Elétricos</a>
+        <a href="luxo.html">Luxo</a>
+        <a href="esportivo.html">Esportivos</a>
+        <a href="suv.html">SUVs</a>
+        <a href="conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <div class="hero-badge" aria-hidden="true">Mobilidade premium</div>
+        <h1 id="hero-title">A nova energia do aluguel de carros</h1>
+        <p>Escolha entre elétricos, esportivos, SUVs, conversíveis e luxo. Tecnologia, conforto e desempenho com reserva rápida.</p>
+        <div class="cta-row">
+          <a class="btn" href="comparacao.html">Comparar modelos</a>
+          <a class="btn secondary" href="eletrico.html">Ver elétricos</a>
+        </div>
+      </div>
+      <a class="hero-visual featured" aria-label="Carro mais alugado da semana" href="eletrico/tesla-model-3.html">
+        <span class="hero-tag">Mais alugado da semana</span>
+        <img src="img/tesla-model-3.jpg" alt="Tesla Model 3, carro mais alugado da semana">
+      </a>
+    </section>
+
+    <section class="container section" aria-labelledby="cat-title">
+      <h2 id="cat-title">Categorias em destaque</h2>
+      <p class="lead">Selecione a vibe certa para sua viagem: potência, eficiência ou puro conforto.</p>
+      <div class="grid">
+        <article class="card" tabindex="0">
+          <img src="img/tesla-model-3.jpg" alt="Tesla Model 3 branco">
+          <div class="card-meta">
+            <span class="badge">Elétrico</span>
+            <span class="price">R$ 420/dia</span>
+          </div>
+          <h3>Tesla Model 3</h3>
+          <p>Zero emissões, 480 km de alcance e piloto automático para viagens tranquilas.</p>
+          <div class="card-actions">
+            <a class="btn" href="eletrico/tesla-model-3.html">Alugar</a>          </div>
+        </article>
+        <article class="card" tabindex="0">
+          <img src="img/porsche-911-carrera-s.jpg" alt="Porsche 911 Carrera S prata">
+          <div class="card-meta">
+            <span class="badge">Esportivo</span>
+            <span class="price">R$ 1.150/dia</span>
+          </div>
+          <h3>Porsche 911 Carrera S</h3>
+          <p>Ícone absoluto com aceleração brutal e equilíbrio perfeito de chassi.</p>
+          <div class="card-actions">
+            <a class="btn" href="esportivo/porsche-911-carrera-s.html">Alugar</a>          </div>
+        </article>
+        <article class="card" tabindex="0">
+          <img src="img/range-rover-sport.jpg" alt="Range Rover Sport preta">
+          <div class="card-meta">
+            <span class="badge">SUV</span>
+            <span class="price">R$ 950/dia</span>
+          </div>
+          <h3>Range Rover Sport</h3>
+          <p>SUV de luxo com tração impecável, cabine silenciosa e presença imbatível.</p>
+          <div class="card-actions">
+            <a class="btn" href="suv/range-rover-sport.html">Alugar</a>          </div>
+        </article>
+        <article class="card" tabindex="0">
+          <img src="img/mercedes-s580.jpg" alt="Mercedes-Benz S 580 preto">
+          <div class="card-meta">
+            <span class="badge">Luxo</span>
+            <span class="price">R$ 1.250/dia</span>
+          </div>
+          <h3>Mercedes-Benz S 580</h3>
+          <p>Sedã referência de conforto, tecnologia de ponta e bancos com massagem.</p>
+          <div class="card-actions">
+            <a class="btn" href="luxo/mercedes-s580.html">Alugar</a>          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" aria-labelledby="reasons">
+      <h2 id="reasons">Por que a AutoMotors?</h2>
+      <p class="lead">Tecnologia e experiência lado a lado para você dirigir melhor.</p>
+      <div class="metrics">
+        <div class="metric-card">
+          <strong>Reserva fluida</strong>
+          <span class="tagline">Check-in digital, sem papelada.</span>
+        </div>
+        <div class="metric-card">
+          <strong>Segurança reforçada</strong>
+          <span class="tagline">Assistentes de condução em toda a frota.</span>
+        </div>
+        <div class="metric-card">
+          <strong>Suporte 24/7</strong>
+          <span class="tagline">Equipe pronta em qualquer canal.</span>
+        </div>
+        <div class="metric-card">
+          <strong>Planos flexíveis</strong>
+          <span class="tagline">Alugue por dia, semana ou mês.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+

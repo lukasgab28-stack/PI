@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoMotors | BMW Z4 Roadster</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="page">
+  <header>
+    <div class="container nav" aria-label="Barra de navegação">
+      <div class="logo" aria-label="AutoMotors">
+        <div class="logo-mark" aria-hidden="true">A</div>
+        <span>AutoMotors</span>
+      </div>
+      <nav class="nav-links" aria-label="Seções principais">
+        <a href="../index.html">Início</a>
+        <a href="../comparacao.html">Comparação</a>
+        <a href="../eletrico.html">Elétricos</a>
+        <a href="../luxo.html">Luxo</a>
+        <a href="../esportivo.html">Esportivos</a>
+        <a href="../suv.html">SUVs</a>
+        <a href="../conversivel.html">Conversíveis</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="search-bar">
+          <label class="hidden" for="searchInput">Pesquisar carros</label>
+          <input id="searchInput" type="search" placeholder="Buscar carros..." aria-label="Pesquisar carros">
+          <div id="searchResults" class="search-results" role="listbox" aria-label="Resultados da busca"></div>
+        </div>
+        <button id="configBtn" aria-label="Abrir configurações"><img src="../img/configuracoes.png" alt="Configura��es" class="config-icon"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="category-banner">
+      <p class="tagline">Conversível | Roadster esportivo</p>
+      <h1>BMW Z4 Roadster</h1>
+      <p>Seis cilindros, tração traseira e acabamento premium para curtir o céu aberto.</p>
+    </div>
+
+    <section class="hero section">
+      <div class="hero-text">
+        <div class="hero-badge">R$ 750/dia</div>
+        <h2>Esporte e estilo</h2>
+        <p>Capota elétrica rápida, pacote M Sport e direção precisa para estradas sinuosas.</p>
+        <div class="pill-grid">
+          <span class="pill">0-100 km/h em 4,5s</span>
+          <span class="pill">Seis cilindros em linha</span>
+          <span class="pill">Tração traseira</span>
+          <span class="pill">Pacote M Sport</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn" href="../contato.html">Confirmar aluguel</a>
+          <a class="btn ghost" href="../conversivel.html">Voltar para Conversíveis</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="BMW Z4 Roadster">
+        <img src="../img/bmw-z4.jpg" alt="BMW Z4 Roadster branco">
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="specs">
+      <h2 id="specs">Destaques técnicos</h2>
+      <div class="metrics">
+        <div class="metric-card"><strong>Motor</strong><span class="tagline">6 cilindros turbo</span></div>
+        <div class="metric-card"><strong>Capota</strong><span class="tagline">Elétrica e rápida</span></div>
+        <div class="metric-card"><strong>Som</strong><span class="tagline">Harman Kardon</span></div>
+        <div class="metric-card"><strong>Conforto</strong><span class="tagline">Bancos M Sport</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 AutoMotors. Todos os direitos reservados. | <a href="../termos.html" aria-label="Termos de uso">Termos de uso</a> | <a href="../contato.html" aria-label="Contato">Contato</a></p>
+    </div>
+  </footer>
+
+  <div id="configPanel" class="config-panel" aria-label="Painel de configurações">
+    <div class="config-row">
+      <h3>Configurações</h3>
+      <button id="closeConfig" aria-label="Fechar configurações">✕</button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tema claro/escuro</span>
+      <button id="themeToggle" class="toggle" aria-label="Alternar tema"></button>
+    </div>
+    <div class="config-row">
+      <span class="font-label">Tamanho do texto</span>
+      <div class="font-controls" aria-label="Ajustar tamanho do texto">
+        <button id="fontDown" aria-label="Diminuir fonte">A-</button>
+        <button id="fontReset" aria-label="Fonte padrão">A</button>
+        <button id="fontUp" aria-label="Aumentar fonte">A+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
+
+
+
+
